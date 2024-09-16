@@ -16,6 +16,6 @@ This is a simple quiz application built with FastAPI and PostgreSQL. It allows y
 ├── database.py        # Database connection and session management
 ```
 
-##Requirements
+## Requirements
 - Python 3.8 or higher
 - PostgreSQL 12 or higher
