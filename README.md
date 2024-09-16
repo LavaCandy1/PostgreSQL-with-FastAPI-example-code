@@ -54,7 +54,7 @@ Make sure to have PostgreSQL installed and running. The database connection URL 
 ```
 URL_DATABASE = "postgresql://<username>:<password>@localhost:5432/QuizApp"
 ```
-Replace <username>, <password>, and QuizApp with your PostgreSQL credentials.
+Replace {username}, {password}, and QuizApp with your PostgreSQL credentials.
 
 ## Dependencies
 Install dependencies by running:
