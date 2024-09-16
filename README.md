@@ -44,6 +44,8 @@ This is a simple quiz application built with FastAPI and PostgreSQL. It allows y
    ```
    uvicorn main:quiz --reload
    ```
+   This will start the server at `http://127.0.0.1:8000`
+5. Navigate to `http://127.0.0.1:8000/docs` to view the interactive API documentation.
 
 ## API Endpoints
 1. Create a Quiz Question - "/questions/" ~ POST method
