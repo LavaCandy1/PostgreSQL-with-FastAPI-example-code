@@ -39,6 +39,7 @@ This is a simple quiz application built with FastAPI and PostgreSQL. It allows y
      ```
      URL_DATABASE = "postgresql://<username>:<password>@localhost:5432/QuizApp"
      ```
+     Replace {username}, {password}, and QuizApp with your PostgreSQL credentials.
 4. Run the FastAPI application:
    ```
    uvicorn main:quiz --reload
@@ -54,7 +55,7 @@ Make sure to have PostgreSQL installed and running. The database connection URL 
 ```
 URL_DATABASE = "postgresql://<username>:<password>@localhost:5432/QuizApp"
 ```
-Replace {username}, {password}, and QuizApp with your PostgreSQL credentials.
+
 
 ## Dependencies
 Install dependencies by running:
