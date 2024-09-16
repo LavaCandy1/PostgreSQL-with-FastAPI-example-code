@@ -39,7 +39,7 @@ This is a simple quiz application built with FastAPI and PostgreSQL. It allows y
      ```
      URL_DATABASE = "postgresql://<username>:<password>@localhost:5432/QuizApp"
      ```
-     Replace {username}, {password}, and QuizApp with your PostgreSQL credentials.
+     *Make sure to replace {username} and {password} with your PostgreSQL credentials.
 4. Run the FastAPI application:
    ```
    uvicorn main:quiz --reload
@@ -59,7 +59,9 @@ URL_DATABASE = "postgresql://<username>:<password>@localhost:5432/QuizApp"
 
 ## Dependencies
 Install dependencies by running:
-*pip install -r requirements.txt*
+```
+pip install -r requirements.txt
+```
 
 
 This `README.md` covers installation, usage, and project structure, along with example API requests and responses. Let me know if you have any queries.
